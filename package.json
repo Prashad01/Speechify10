@@ -9,13 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
 "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build"
+  "deploy": "gh-pages -d dist -r https://github.com/Prashad01/speechify10.git"
 
   },
   "dependencies": {
-"homepage": "https://Prashad01.github.io/Speechify10",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
